@@ -1,0 +1,100 @@
+
+* 
+{ 
+	box-sizing: border-box;
+}
+
+.sidebar{
+
+	margin-top: 30px;
+	width: 250px;
+	border: 3px solid seagreen;
+	border-radius: 25px;
+	background-color: cornsilk;
+	font-family: "Courier New", Courier, "Lucida Sans Typewriter";
+	position: fixed;
+	z-index: 1; /* Stay on top */
+	  top: 0; /* Stay at the top */
+	  left: 0;
+	overflow-x: hidden; /* Disable horizontal scroll */
+
+}
+
+.sidebar li{
+	margin: 0;
+	padding: 5px 0px 5px 20px; /*top right bottom left */
+	list-style: none;
+	background-image: url("Pictures/Leaf.png");
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 10px;
+}
+
+.sidebar li:hover{
+
+	background-image: url("Pictures/PinkLeaf.png");
+}
+.sidebar a{
+
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 15px;
+
+}
+
+/* unvisited link */
+.sidebar a:link {
+  color: seagreen;
+}
+
+/* visited link */
+.sidebar a:visited {
+  color: seagreen;
+}
+
+/* mouse over link */
+.sidebar a:hover {
+
+  color: hotpink;
+}
+
+/* selected link */
+.sidebar a:active {
+  color: hotpink;
+}
+
+
+/* Style page content */
+body {
+	background-image: url("Pictures/background.png");
+	height:1000px;
+	font-family: "Courier New", Courier, "Lucida Sans Typewriter";
+}
+
+#bgsource{
+
+	font-size: 10px;
+	margin-left: 75%;
+	text-decoration: none;
+	font-weight: bold;
+	color: mediumseagreen;
+}
+
+#bgsource:hover{
+
+	color:hotpink;
+}
+
+
+main {
+	height: 80%;
+	margin-top: 30px;
+	border: 3px solid seagreen;
+	border-radius: 25px;
+	background-color: cornsilk;
+  	margin-left: 250px; /* Same as the width of the sidebar */
+  	margin-right: 250px;
+  	padding: 0px 40px 40px 40px; /*top right bottom left*/
+}
+
+
