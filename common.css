@@ -6,7 +6,7 @@
 
 .sidebar{
 
-	margin-top: 30px;
+	margin-top: 50px;
 	width: 250px;
 	border: 3px solid seagreen;
 	border-radius: 25px;
@@ -71,19 +71,6 @@ body {
 	font-family: "Courier New", Courier, "Lucida Sans Typewriter";
 }
 
-#bgsource{
-
-	font-size: 10px;
-	margin-left: 75%;
-	text-decoration: none;
-	font-weight: bold;
-	color: mediumseagreen;
-}
-
-#bgsource:hover{
-
-	color:hotpink;
-}
 
 
 main {
@@ -97,4 +84,60 @@ main {
   	padding: 0px 40px 40px 40px; /*top right bottom left*/
 }
 
+/* Style footer */
 
+.footer{
+
+	font-size: 10px;
+	height: 50px;
+	margin-right: 250px;
+	margin-left: 250px;
+	padding: 0px 10px 0px 10px;/*top right bottom left*/
+	font-weight: bold;
+	color: black;
+	background: rgba(170, 170, 170, 0.69);
+	background-image: url("Pictures/background.png");
+	background-blend-mode: multiply;
+	text-align: center;
+	border-radius: 5px;
+	
+	
+}
+
+.Twitter{
+
+	padding-left: 20px;  
+	background-image: url("Pictures/TwitterB.png");
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 10px; 
+}
+
+.Twitter:hover{
+	background-image: url("Pictures/TwitterW.png");
+
+}
+
+.footer ul{
+
+	padding: 20px 0px;
+}
+
+.footer li{
+	list-style: none;
+	padding: 5%;
+	opacity: 100%;
+	display: inline;
+
+}
+
+.footer a {
+
+	color: black;
+	text-decoration: none;
+}
+
+.footer a:hover{
+
+	color:white;
+}
