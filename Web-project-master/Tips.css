@@ -1,0 +1,30 @@
+
+main{
+    text-align: center;
+    padding-bottom: 20px;
+    height: 7000px;
+}
+
+.flip{
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+  }
+
+p{
+    font-family: cursive;
+    font-size: large;
+}
+
+.head{
+    color: rgb(0,100,0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: cursive;
+    padding: 20px;
+}
+
+img{
+    border-radius: 10px;
+    max-width: 100%;
+}
