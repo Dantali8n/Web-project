@@ -1,0 +1,54 @@
+
+main{
+    text-align: justified;
+    padding-bottom: 20px;
+    height: 9130px;
+}
+
+.flip{
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+  }
+
+p{
+    font-family: cursive;
+    font-size: large;
+}
+
+.head{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: cursive;
+    padding: 20px;
+    text-shadow: 5px 5px 5px #555;
+}
+
+
+table {
+    width: 100%;
+    text-align: center;
+}
+
+.txtbox {
+    border: 2px solid seagreen;
+	border-radius: 25px;
+    text-align: justify;
+    
+}
+
+.imgbox{
+    width: 30%;
+    text-align: center;
+}
+
+.charaname {
+    padding-bottom: 20px;
+}
+
+img{
+    border-radius: 10px;
+    max-width: 100%;
+    object-fit: contain;
+}
+
