@@ -6,7 +6,8 @@
 .sidebar{
 
 	margin-top: 50px;
-	width: 250px;
+	margin-left: 10px;
+	width: 230px;
 	border: 3px solid seagreen;
 	border-radius: 25px;
 	background-color: cornsilk;
@@ -66,6 +67,7 @@
 /* Style page content */
 body {
 	background-image: url("Pictures/background.png");
+	background-attachment: fixed;
 	height:1000px;
 	font-family: "Courier New", Courier, "Lucida Sans Typewriter";
 }
