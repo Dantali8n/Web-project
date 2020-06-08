@@ -16,7 +16,7 @@
 	  top: 0; /* Stay at the top */
 	  left: 0;
 	overflow-x: hidden; /* Disable horizontal scroll */
-
+	box-shadow: 8px 8px 8px #555;
 }
 
 .sidebar li{
@@ -80,7 +80,8 @@ main {
 	background-color: cornsilk;
   	margin-left: 250px; /* Same as the width of the sidebar */
   	margin-right: 250px;
-  	padding: 0px 40px 40px 40px; /*top right bottom left*/
+	padding: 0px 40px 40px 40px; /*top right bottom left*/
+	box-shadow: 8px 8px 8px  #555;
 }
 
 /* Style footer */
