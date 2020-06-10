@@ -1,7 +1,6 @@
 main{
     text-align: justified;
     padding-bottom: 20px;
-    height: 9130px;
 }
 
 .flip{
@@ -29,12 +28,14 @@ table {
 }
 
 .txtbox {
-    border: 2px solid seagreen;
+    border: 5px solid rgb(123, 253, 203);
+    background-color: rgb(236, 232, 216);
+    box-shadow: gray 5px 5px 5px;
 	border-radius: 25px;
     text-align: justify;
     padding-left: 50px;
     padding-right: 50px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: cursive;
     font-size: xx-large;
     color: darkgreen;
 }

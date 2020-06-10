@@ -6,11 +6,11 @@
 .sidebar{
 
 	margin-top: 50px;
-	margin-left: 10px;
-	width: 230px;
+	margin-left: 1%;
+	width: 12%;
 	border: 3px solid seagreen;
 	border-radius: 20px;
-	background-color: cornsilk;
+	background-color: rgb(255, 248, 220);
 	font-family: "Courier New", Courier, "Lucida Sans Typewriter";
 	position: fixed;
 	z-index: 1; /* Stay on top */
@@ -22,7 +22,7 @@
 
 .sidebar li{
 	margin: 0;
-	padding: 5px 0px 5px 20px; /*top right bottom left */
+	padding: 5px 1% 5px 20px; /*top right bottom left */
 	list-style: none;
 	background-image: url("Pictures/Leaf.png");
 	background-repeat: no-repeat;
@@ -72,23 +72,17 @@ body {
 
 main {
 	height: 80%;
-	width: 1010px;
+	height: auto;
 	margin-top: 30px;
 	border: 3px solid seagreen;
 	border-radius: 25px;
 	background-color: cornsilk;
-  	margin-left: 250px; /* Same as the width of the sidebar */
-  	margin-right: 250px;
+  	margin-left: 14%; /* Same as the width of the sidebar */
+  	margin-right: 5%;
 	padding: 0px 40px 40px 40px; /*top right bottom left*/
 	box-shadow: 8px 8px 8px  #555;
 }
 
-.source{
-	color: rgb(110, 110, 110);
-	position:relative;
-	 left: 1100px;
-	 font-size: small;
-}
 
 /* Style footer */
 .footer{
@@ -119,8 +113,15 @@ main {
 	background-image: url("Pictures/TwitterW.png");
 }
 
+.footer {
+	height: auto;
+	margin-left: 14%;
+	margin-right: 5%;
+}
+
 .footer ul{
 	padding: 20px 0px;
+
 }
 
 .footer li{
