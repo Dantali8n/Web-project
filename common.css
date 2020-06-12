@@ -3,37 +3,38 @@
 	box-sizing: border-box;
 }
 
-.sidebar{
 
-	margin-top: 50px;
-	margin-left: 0.5%;
-	width: 13%;
-	border: 3px solid seagreen;
-	border-radius: 20px;
-	background-color: rgb(255, 248, 220);
-	font-family: "Courier New", Courier, "Lucida Sans Typewriter";
-	position: fixed;
-	z-index: 1; /* Stay on top */
-	top: 0; /* Stay at the top */
-	left: 0;
-	overflow-x: hidden; /* Disable horizontal scroll */
-	box-shadow: 8px 8px 8px #555;
+/* Style gen navigation */
+
+.sidebar ul{
+	padding: 5px 10px 5px 10px;	
 }
 
 .sidebar li{
-	margin: 0;
+	margin: 0px;
 	padding: 5px 1% 5px 20px; /*top right bottom left */
 	list-style: none;
 	background-image: url("Pictures/Leaf.png");
 	background-repeat: no-repeat;
-	background-position: left center;
+	background-position: left;
 	background-size: 10px;
 }
 
-.sidebar li:hover{
+.sidebar li:hover {
 
 	background-image: url("Pictures/PinkLeaf.png");
 }
+/* mouse over link */
+.sidebar li:hover a{
+
+  color: hotpink;
+}
+
+/* selected link */
+.sidebar li:active a{
+  color: hotpink;
+}
+
 .sidebar a{
   text-decoration: none;
   font-weight: bold;
@@ -50,16 +51,96 @@
   color: seagreen;
 }
 
-/* mouse over link */
-.sidebar a:hover {
 
-  color: hotpink;
+
+/* Style big screen navigation */
+
+@media (min-width: 900px) {
+
+	.dropbtn {
+	  display: none;
+	}
+
+	.sidebar{
+
+		margin-top: 50px;
+		margin-left: 0.5%;
+		padding-left: 0px;
+		width: 14%;
+		border: 3px solid seagreen;
+		border-radius: 20px;
+		background-color: rgb(255, 248, 220);
+		font-family: "Courier New", Courier, "Lucida Sans Typewriter";
+		position: fixed;
+		z-index: 1; /* Stay on top */
+		top: 0; /* Stay at the top */
+		left: 0;
+		overflow-x: hidden; /* Disable horizontal scroll */
+		box-shadow: 0px 0px 8px #555;
+	}
+
+
+
 }
 
-/* selected link */
-.sidebar a:active {
-  color: hotpink;
+/* Style small screen navigation */
+
+@media (max-width: 900px) {
+
+	.dropbtn {
+		display: block;
+		position: fixed;
+		z-index: 1;
+		background-color: seagreen;
+		color: white;
+		padding: 16px;
+		font-size: 16px;
+		border: none;
+		border-radius: 20px;
+		cursor: pointer;
+	}
+
+	.sidebar {
+		position: relative;
+		display: inline-block;
+		background-color: rgb(255, 248, 220);
+		font-family: "Courier New", Courier, "Lucida Sans Typewriter";
+
+
+	}
+
+	.sidebar ul {
+		display: none;
+		position: fixed;
+		z-index: 1; /* Stay on top */
+		top: 0; /* Stay at the top */
+		left: 5%;
+		background-color: rgb(255, 248, 220);
+		min-width: 160px;
+		max-width: 300px;
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		z-index: 1;
+		padding: 5px 10px 5px 10px;	
+	}
+
+
+	.sidebar:hover .dropdown-content{
+  		display: block;
+  		border: 3px solid seagreen;
+		border-radius: 20px;
+		width: 100%;
+		overflow-x: hidden; /* Disable horizontal scroll */
+		box-shadow: 0px 0px 8px #555;
+	}
+
+	
 }
+
+
+
+
+
+
 
 
 /* Style page content */
@@ -70,6 +151,12 @@ body {
 	font-family: "Courier New", Courier, "Lucida Sans Typewriter";
 }
 
+.flexcontainer
+{
+	display : flex;
+	flex-flow: row wrap;
+}
+
 main {
 	height: 80%;
 	height: auto;
@@ -77,7 +164,7 @@ main {
 	border: 3px solid seagreen;
 	border-radius: 25px;
 	background-color: cornsilk;
-  	margin-left: 14%; /* Same as the width of the sidebar */
+  	margin-left: 15%; /* Same as the width of the sidebar */
   	margin-right: 5%;
 	padding: 0px 40px 40px 40px; /*top right bottom left*/
 	box-shadow: 8px 8px 8px  #555;

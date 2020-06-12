@@ -10,7 +10,6 @@ main{
 
 p{
     font-family: cursive;
-    font-size: large;
 }
 
 .head{
@@ -36,17 +35,18 @@ table {
     padding-left: 50px;
     padding-right: 50px;
     font-family: cursive;
-    font-size: x-large;
-    color: darkgreen;
+    font-size: large;
+    width: 40%;
 }
 
 .imgbox{
-    width: 30%;
+    width: 20%;
     text-align: center;
 }
 
 .charaname {
     padding-bottom: 20px;
+    font-family: cursive;
 }
 
 img{

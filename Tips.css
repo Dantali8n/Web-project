@@ -73,13 +73,13 @@ img{
 
 /* Position the "next button" to the right */
 .next {
-  right: 140px;
+  right: 180px;
   border-radius: 3px 0 0 3px;
 }
 
 /* Position the "next button" to the left */
 .prev {
-    left: 140px;
+    left: 180px;
     border-radius: 3px 0 0 3px;
 }
 
