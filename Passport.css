@@ -34,6 +34,8 @@ form
 
 }
 
+
+
 .inputdiv
 {
 	min-width: 200px;
@@ -61,7 +63,6 @@ input
 
 .passportEntry{
 	background-color: linen;
-	width: auto;
 	border-radius: 7px;
 	padding: 5px;
 	margin: 10px;
@@ -71,15 +72,31 @@ input
 .wrapper{
 
 	max-width: 600px;
+	width: auto;
 	overflow: hidden;
 }
 
 #_islandname{
 	display: inline-block;
+	width: auto;
 }
 #_fruit{
-	display: inline-block;	
+	display: inline-block;
+	width: auto;	
 }
+
+#_greeting{
+	display: inline-block;
+}
+
+#_profile{
+	object-fit: cover;
+	float: left;
+	border-radius: 20px;
+	padding: 0px 5px 5px 5px;
+}
+
+
 h1{
 
 	text-align: center;
