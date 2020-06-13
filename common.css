@@ -219,7 +219,7 @@ body {
 
 .footer {
 	height: auto;
-	margin-left: 14%;
+	margin-left: 15%;
 	margin-right: 5%;
 }
 
@@ -230,13 +230,9 @@ body {
 
 .footer li{
 	list-style: none;
-	padding-top: 1%;
-	padding-bottom: 1%;
-	padding-left: 4%;
-	padding-right: 4%;
+	padding: 5%;
 	opacity: 100%;
-	display: inline-block;
-	height: 10px;
+	display: inline;
 	font-size: 12px;
 }
 

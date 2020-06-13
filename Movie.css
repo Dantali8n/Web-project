@@ -1,0 +1,56 @@
+@media (min-width: 900px) {	
+
+	iframe{
+		width: 640px;
+		height: 360px;
+
+	} }
+
+@media (max-width: 900px) {
+
+	iframe{
+		height: 90%;
+		width: 90%;
+
+	}
+}
+
+
+.video-container {
+	
+	
+    padding-bottom: 35px;
+    padding-top: 35px;
+
+}
+
+main{
+
+	display: block;
+	text-align: center;
+	background: rgba(0, 0, 0, 0.69);
+	background-blend-mode: multiply;
+	color: white;
+	border: none;
+}
+
+.footer{
+
+	background: rgba(0, 0, 0, 0.69);
+}
+
+.footer a {
+	color: white;
+}
+
+.footer a:hover{
+	color:black;
+}
+
+.Twitter{  
+	background-image: url("Pictures/TwitterW.png");
+}
+
+.Twitter:hover{
+	background-image: url("Pictures/TwitterB.png");
+}
