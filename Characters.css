@@ -26,28 +26,60 @@ table {
     text-align: center;
 }
 
-.txtbox {
-    border: 5px solid rgb(123, 253, 203);
-    background-color: rgb(236, 232, 216);
-    box-shadow: gray 5px 5px 5px;
-	border-radius: 25px;
-    text-align: justify;
-    padding-left: 50px;
-    padding-right: 50px;
-    font-family: cursive;
-    font-size: large;
-    width: 40%;
+@media (max-width: 700px) {
+    td {
+        display: flex;
+        width: 100%;
+    }
+
+    .txtbox {
+        border: 5px solid rgb(123, 253, 203);
+        background-color: rgb(236, 232, 216);
+        box-shadow: gray 5px 5px 5px;
+        border-radius: 25px;
+        text-align: justify;
+        padding: 5%;
+        font-family: cursive;
+        font-size: large;
+        margin-bottom: 20px;
+    }
+    
+    .imgbox{
+        text-align: center;
+    }
+
+    .charaname {
+        display: none;
+    }
+
+
 }
 
-.imgbox{
-    width: 20%;
-    text-align: center;
+@media (min-width: 700px) {
+    
+    .txtbox {
+        border: 5px solid rgb(123, 253, 203);
+        background-color: rgb(236, 232, 216);
+        box-shadow: gray 5px 5px 5px;
+        border-radius: 25px;
+        text-align: justify;
+        padding: 5%;
+        font-family: cursive;
+        font-size: large;
+        width: 40%;
+    }
+    
+    .imgbox{
+        width: 20%;
+        text-align: center;
+    }
+    .charaname {
+        padding-bottom: 20px;
+        font-family: cursive;
+    }
+
 }
 
-.charaname {
-    padding-bottom: 20px;
-    font-family: cursive;
-}
 
 img{
     border-radius: 10px;
