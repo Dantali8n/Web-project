@@ -37,7 +37,7 @@ img{
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  max-width: 2000px;
+  width: 90%;
   position: relative;
   margin: auto;
 }
@@ -48,52 +48,98 @@ img{
 }
 
 /* Next & previous buttons */
-@media (min-width: 800px) {
-  .prev, .next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    margin-top: -22px;
-    padding: 16px;
-    color: white;
-    font-weight: bold;
-    font-size: 18px;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: 70px;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+
+@media (min-width: 2000px) {
+
+  /* Position the "next button" to the right */
+  .next {
+    right: 600px;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* Position the "next button" to the left */
+  .prev {
+      left: 600px;
+      border-radius: 3px 0 0 3px;
+  }
+}
+
+
+@media (max-width: 2000px) {
+
+  /* Position the "next button" to the right */
+  .next {
+    right: 400px;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* Position the "next button" to the left */
+  .prev {
+      left: 400px;
+      border-radius: 3px 0 0 3px;
+  }
+}
+
+
+
+@media (max-width: 1500px) {
+
+  /* Position the "next button" to the right */
+  .next {
+    right: 200px;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* Position the "next button" to the left */
+  .prev {
+      left: 200px;
+      border-radius: 3px 0 0 3px;
+  }
+}
+
+@media (max-width: 1200px) {
+
+  /* Position the "next button" to the right */
+  .next {
+    right: 100px;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* Position the "next button" to the left */
+  .prev {
+      left: 100px;
+      border-radius: 3px 0 0 3px;
   }
 }
 
 @media (max-width: 800px) {
-  .prev, .next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: 70px;
-    margin-top: -22px;
-    padding: 16px;
-    color: white;
-    font-weight: bold;
-    font-size: 18px;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-  }
-}
 
-
-
-/* Position the "next button" to the right */
-.next {
-  right: 10%;
-  border-radius: 3px 0 0 3px;
-}
-
-/* Position the "next button" to the left */
-.prev {
-    left: 10%;
+  /* Position the "next button" to the right */
+  .next {
+    right: 10%;
     border-radius: 3px 0 0 3px;
+  }
+  
+  /* Position the "next button" to the left */
+  .prev {
+      left: 10%;
+      border-radius: 3px 0 0 3px;
+  }
 }
 
 /* On hover, add a black background color with a little bit see-through */
