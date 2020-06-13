@@ -230,9 +230,13 @@ body {
 
 .footer li{
 	list-style: none;
-	padding: 5%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	padding-left: 4%;
+	padding-right: 4%;
 	opacity: 100%;
-	display: inline;
+	display: inline-block;
+	height: 10px;
 	font-size: 12px;
 }
 
