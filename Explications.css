@@ -23,19 +23,45 @@
   margin-top: 10px;
   margin-bottom: 10px;
 }
+
 .historyP1{
   height: 100px;
-  border-radius: 100px;
+  border-radius: 20px;
   box-shadow: 5px 5px 5px #555;
   margin-bottom: 10px;
 }
 
 .historyP2{
-  width: 500px;
+  width: 50%;
   border-radius: 20px;
   box-shadow: 5px 5px 5px #555;
 }
 
+.gameshistory{
+  font-family: cursive;
+}
+
+.AC{
+  width: 40%;
+  height: 50%;
+}
+
 .goal{
   font-family: cursive;
+}
+
+.button{
+  background-color: #4CAF50;
+  border: none;
+  color: black;
+  font-family: cursive;
+  box-shadow: 5px 5px 5px #555;
+  border-radius: 20px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
 }
