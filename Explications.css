@@ -1,11 +1,4 @@
-.head{
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  font-family: cursive;
-  padding: 20px;
-  text-shadow: 5px 5px 5px #555;
-}
+
 
 .intro{
   font-family: cursive;
