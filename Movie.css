@@ -1,10 +1,15 @@
+/*Display on computer*/
+
 @media (min-width: 900px) {	
 
 	iframe{
 		width: 640px;
 		height: 360px;
 
-	} }
+	} 
+}
+
+/*Display on phone*/
 
 @media (max-width: 900px) {
 
@@ -15,6 +20,7 @@
 	}
 }
 
+/*Box for videos' display*/
 
 .video-container {
 	

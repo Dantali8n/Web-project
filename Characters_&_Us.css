@@ -12,12 +12,12 @@ p{
     font-family: cursive;
 }
 
-
-
 table {
     width: 100%;
     text-align: center;
 }
+
+/*Display of blocks on phone (image over text description, no nametag)*/
 
 @media (max-width: 700px) {
     td {
@@ -47,6 +47,8 @@ table {
 
 
 }
+
+/*Display of blocks on computer (image on the left of text description and nametag below it)*/
 
 @media (min-width: 700px) {
     

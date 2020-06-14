@@ -2,6 +2,7 @@
 	font-family: "Courier New", Courier, "Lucida Sans Typewriter";
 }
 
+/*Appearance of form (for inputs)*/
 
 form
 {
@@ -14,10 +15,7 @@ form
 	border-radius: 25px;
 }
 
-.inputdiv{
-	text-align: right;
-	padding: 5px;
-}
+/*Appearance of passport*/
 
 .passport{
 	margin-right: auto;
@@ -35,7 +33,7 @@ form
 }
 
 
-
+/*Appearance of different types odf inputs*/
 
 .inputdiv
 {
@@ -43,7 +41,10 @@ form
 	flex : 2 2;
 	justify-content: center;
 	margin: 2px;
+	text-align: right;
+	padding: 5px;
 }
+
 input
 {
 	width: 100%;
@@ -69,6 +70,8 @@ input
 	margin: 10px;
 	overflow-x: hidden;
 }
+
+/*Look of passport entries displays*/
 
 .wrapper{
 

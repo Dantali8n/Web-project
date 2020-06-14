@@ -63,6 +63,7 @@ img{
   user-select: none;
 }
 
+/*Different positions of prev and next buttons depending of the screen's wideness to addapt to many kinds of screens*/
 
 @media (min-width: 2000px) {
 
@@ -79,7 +80,6 @@ img{
   }
 }
 
-
 @media (max-width: 2000px) {
 
   /* Position the "next button" to the right */
@@ -94,8 +94,6 @@ img{
       border-radius: 3px 0 0 3px;
   }
 }
-
-
 
 @media (max-width: 1500px) {
 

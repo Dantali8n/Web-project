@@ -13,7 +13,7 @@ p{
   font-size: large;
 }
 
-
+/*display of the slideshow*/
 
 .slidepictures{
   border-radius: 10px;
@@ -52,6 +52,8 @@ img {vertical-align: middle;}
 }
 
 
+/*Different displays for the video so it looks right on each type of screen while not beeing too big*/
+
 @media (min-width: 1024px) {
   iframe {
     width: 720px;
@@ -83,6 +85,8 @@ img {vertical-align: middle;}
 
   }
 }
+
+/*fading of slideshow*/
 
 @-webkit-keyframes fade {
   from {opacity: .4} 
